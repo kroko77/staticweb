@@ -1,0 +1,245 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+ 
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav {
+    background: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffa500;
+  }
+  
+ 
+  main {
+    flex: 1;
+    background: white;
+  }
+  
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      padding-top: 10px;
+    }
+  }
+
+#domov img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+
+  #domov p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em; 
+    color: #333;
+    font-weight: bold; 
+    line-height: 1.6; 
+}
+#domov h2 {
+    text-align: left; 
+    margin-left: 20px;
+    font-size: 2em; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+  }
+  
+  .content-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .content-column {
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
+  }
+  
+  .content-column img {
+    width: 400px; 
+    height: 400px;
+    object-fit: cover; 
+    margin-bottom: 10px; 
+    border-radius: 50%; 
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .content-row {
+      flex-direction: column;
+    }
+  
+    .content-column {
+      max-width: 100%;
+    }
+  
+    .content-column img {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+  
+  .content-column p {
+    font-size: 1.1em; 
+    color: #333; 
+    font-weight: bold; 
+    line-height: 1.6; 
+    margin-top: 10px; 
+  }
+  .content-center {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .content-center img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .content-center p {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  .map-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    max-width: 600px; 
+  }
+  
+  .contact-info {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px; 
+  }
+  
+  .contact-info p {
+    font-size: 1.1em; 
+    margin: 5px 0; 
+  }
+  
+  .map-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    max-width: 600px;
+  }
+  #skola h2 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 2em; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+  }
+  #praca h2 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 2em; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+  }
+  #Hobby h2 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 2em; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+  }
+  #kontakt h2 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 2em; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+}
+    #hobby h2 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 2em;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+  }
+ 
